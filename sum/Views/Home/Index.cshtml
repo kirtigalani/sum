@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+    <table>
+        <tr>
+            <td>Enter a:
+                <input type="text" name="a" />
+            </td>
+        </tr>
+        <tr>
+            <td>Enter b:
+                <input type="text" name="b" />
+            </td>
+        </tr>
+        <tr>
+            
+            <td>Ans:
+                <input type="text" name="ans" value="@ViewBag.ans" readonly />
+            </td
+        </tr>
+         <tr>
+            <td><input type="submit" name="sum" value="add" /></td>
+            <td><input type="submit" name="sum" value="mul" /></td>
+         </tr>
+        <tr>
+            <td><input type="submit" name="sum" value="sub" /></td>
+            <td><input type="submit" name="sum" value="div" /></td>
+        </tr>
+    </table>
+</form>
